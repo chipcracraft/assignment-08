@@ -1,0 +1,15 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+   display: block;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#app-container{
+   max-width: 960px;
+}
