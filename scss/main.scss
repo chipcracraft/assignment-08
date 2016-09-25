@@ -13,3 +13,134 @@ body {
 #app-container{
    max-width: 960px;
 }
+
+.opener {
+  background: url("../images/images/roomies-eating-together-bg.jpg")center center no-repeat;
+  background-size: cover;
+  color: white;
+  padding-bottom: 180px;
+  margin-bottom: 0;
+
+  .search-bar {
+    color: #C6C6C6;
+    width: 500px;
+    margin: 0 auto;
+    }
+  }
+
+  .second-string {
+    color: white;
+    padding-bottom: 100px;
+    background: url("../images/images/buildings-yellow-green.svg") center center no-repeat;
+    background-size: cover;
+
+    .btn-1 {
+      color: white;
+      background-color: #35414E;
+    }
+  }
+
+.roommate-finder {
+  padding-bottom: 90px;
+
+  .first-para {
+    padding-bottom: 90px;
+  }
+
+  h1 {
+      color: #8CC4D0;
+    }
+
+    .thumbnails img {
+      height: 175px;
+    }
+
+    .find-it{
+      padding-top: 50px;
+    }
+}
+
+  .friends {
+    background: url("../images/images/happy-roomies-bg.jpg") center center no-repeat;
+    background: cover;
+    color: white;
+
+    .social-media {
+      display: inline-block;
+      margin: 0;
+    }
+
+    .social-media img{
+      height: 20px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .social img {
+      display: inline-block;
+    }
+  }
+
+.stories {
+
+    padding-bottom: 70px;
+
+    h1,h3 {
+      color: #8CC4D0;
+    }
+    img {
+      width: 105px;
+      height: 110px;
+      margin: 0 auto;
+    }
+}
+
+.featured-rooms {
+  background-color: #F7C760;
+
+  .rooms {
+    position: relative;
+    margin: 50px;
+  }
+
+   h3 {
+     padding: 25px 0px;
+   }
+   .t-nails {
+     text-align: left;
+   }
+
+   .tina,.buds, .nicole {
+     border-radius: 50%;
+     height: 75px;
+     width: 75px;
+     position: relative;
+    //  left: 63px;
+    //  bottom: 133px;
+     border: 1px solid white;
+     transform: translate(140%,-128%);
+   }
+
+   .room-button {
+     background-color: #35414E;
+     color: white;
+     margin-bottom: 30px;
+     padding: 5px 15px;
+     margin-top: 5px;
+   }
+}
+
+.footer {
+  background-color: #35414E;
+  color: white;
+
+  ul, li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 15px;
+  }
+
+  
+
+
+}

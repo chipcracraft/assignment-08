@@ -10,24 +10,30 @@
    </head>
    <body>
       <div id="app-container">
+        <div>
+
+        </div>
+
+
         <div class="jumbotron text-center opener">
           <h1>Living Together Made Easy</h1>
           <h6>Find your perfect roommmate</h6>
-          <form>
-            <input type="text" placeholder="Where are you searching? " required>
-            <input type="button" value="Yep">
+          <form class="search-bar">
+            <input type="text" placeholder="Where are you searching?" required>
+            <input type="button" value="Search" >
           </form>
         </div>
 
         <div class="jumbotron text-center second-string ">
             <h4> Do you have a room for rent? </h4>
             <p> With room.me it's easy to find roommates who match your personality.</p>
-            <div class="btn-group" role="group" aria-label="...">
-              <button type="button" class="btn btn-default">Post Your Room</button>
+            <div class="btn-group " role="group" aria-label="...">
+              <button type="button" class="btn btn-1">Post Your Room</button>
         </div>
       </div>
 
-        <div class="container text-center roommate-finder">
+        <div class="container-fluid text-center roommate-finder">
+          <div class="first-para">
           <h1>Your Roommate Finder</h1>
           <p>room.me is here to make your life easier.
           We believe in living with the right people
@@ -35,7 +41,8 @@
       Find rooms for rent and roommates by using our smart
     matching algorithm and quickly connect with your perfect
   roommate. </p>
-   <div class="row">
+</div>
+   <div class="row thumbnails">
      <div class="col-xs-12 col-sm-4">
        <img src="images/images/profile-guy-plus.svg"/>
           <h4> Create a Profile </h4>
@@ -55,39 +62,51 @@
           your new home.</p>
       </div>
     </div>
+      <div class="find-it">
       <a href="#"> Find out how it works </a>
+    </div>
    </div>
 
-   <div class="jumbotron text-center">
+   <div class="container-fluid">
+   <div class="jumbotron text-center friends">
      <h4> Recommend #roomdotme</h4>
      <p>Do you know someone looking for or renting out a room?
       Tell them about us. </p>
       <p>Share on</p>
+      <div class="social-media">
+        <img src="images/images/solrod-facebook.svg" class="social"/>
+        <img src="images/images/solrod-instagram.svg" class="social"/>
+        <img src="images/images/solrod-twitter.svg"class="social"/>
+      </div>
+      <div>
+        <p> or </p>
+      </div>
       <form>
         <input type="text" placeholder="enter a friends email address " required>
         <input type="button" value="Yep">
       </form>
    </div>
+ </div>
 
-   <div class="container text-center">
+   <div class="container-fluid text-center stories">
      <h1> Success Stories</h1>
      <p>See how other roomies have found their perfect matches</p>
      <div class="row">
        <div class="col-xs-12 col-md-4">
          <img src="images/images/success-jasmine.png"/>
-          <h5> Jasmine </h5>
+          <h3> Jasmine </h3>
           <p> I trust room.me more than Craiglist, for sure.</p>
        </div>
        <div class="col-xs-12 col-md-4">
          <img src="images/images/success-kevyan.png"/>
-         <h5> Kevyan </h5>
+         <h3> Kevyan </h3>
          <p> What makes room.me different is the criteria
            which roommates are matched against.
          </p>
        </div>
        <div class="col-xs-12 col-md-4">
          <img src="images/images/success-sophia.png"/>
-         <h5> Sophia </h5>
+         <h3> Sophia </h3>
          <p> room.me is so easy to navigate and its
          questionnares are so helpful in finding the perfect
        match for me.</p>
@@ -95,47 +114,57 @@
      </div>
   </div>
 
-  <div class="container text-center">
-    <div class="row">
+  <div class="container-fluid text-center featured-rooms">
+    <div class="row rooms">
       <h3>Featured Rooms</h3>
       <div class="col-xs-12 col-md-4"/>
-      <div class="thumbnail">
+      <div class="thumbnail t-nails">
       <img src="images/images/featured-02.jpg"/>
       <p> 2 Bedroom Available in a 3 Br/2..</p>
       <p> $2,200 | Oct 1, 2016</p>
-      <img src="images/images/featured-user-02.jpg"/>
+      <img src="images/images/featured-user-02.jpg" class="tina"/>
     </div>
   </div>
 
   <div class="col-xs-12 col-md-4"/>
-    <div class="thumbnail">
+    <div class="thumbnail t-nails">
       <img src="images/images/featured-03.jpg"/>
       <p> Looking for a great roomie - BH...</p>
       <p> $1,200 | Nov 1,2016 </p>
-      <img src="images/images/featured-user-03.jpg"/>
+      <img src="images/images/featured-user-03.jpg" class="buds"/>
     </div>
   </div>
 
   <div class="col-xs-12 col-md-4"/>
-    <div class="thumbnail">
+    <div class="thumbnail t-nails">
       <img src="images/images/featured-01.jpg"/>
       <p> Large Double Available </p>
       <p> $1,000 | Sep 8, 2016 - Jan 1,2017 </p>
-      <img src="images/images/featured-user-01.jpg"/>
+      <img src="images/images/featured-user-01.jpg" class="nicole"/>
     </div>
   </div>
+</div>
 
-
-
+  <div class="btn-group " role="group" aria-label="...">
+  <button type="button" class="btn room-button">See More Rooms</button>
   </div>
+</div>
 
+<div class="container fluid text-center footer">
+    <div class="top-list">
+      <ul>
+        <li>How it Works</li>
+        <li>FAQ</li>
+        <li>Blog</li>
+        <li> Imprint</li>
+      </ul>
 
-
-
-
-
-
+      <img src="images/images/google-play.png"/>
     </div>
+
+</div>
+
+
     </div>
    </body>
 </html>
