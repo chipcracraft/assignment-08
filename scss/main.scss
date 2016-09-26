@@ -14,6 +14,75 @@ body {
    max-width: 960px;
 }
 
+.real-navbar {
+  width: 100%;
+  position: relative;
+  display: none;
+
+  @media screen and (min-width:992px){
+    display: block;
+  }
+
+.navbary,.register {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navbary {
+  width: 50%;
+
+}
+.img-navy {
+  height: 50px;
+  position: absolute;
+  top: -43px;
+  left: -350px;
+
+
+}
+
+  .register {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+
+  }
+
+  .register p {
+    vertical-align: top;
+    display:inline-block;
+    padding-left: 10px;
+  }
+
+}
+
+.nav-bar {
+  width: 100%;
+
+  @media screen and (min-width:992px){
+    display: none;
+  }
+
+  ul, li {
+    display: inline-block;
+  }
+
+    .img-1 {
+      height: 30px;
+      position: relative;
+      right: 293px;
+      top: -25px;
+    }
+
+    .fa-bars {
+      position: relative;
+      left: 128px;
+      top: -30px;
+    }
+  }
+
+
+
 .opener {
   background: url("../images/images/roomies-eating-together-bg.jpg")center center no-repeat;
   background-size: cover;
@@ -21,10 +90,19 @@ body {
   padding-bottom: 180px;
   margin-bottom: 0;
 
+
+
+
   .search-bar {
     color: #C6C6C6;
     width: 500px;
     margin: 0 auto;
+    }
+
+    .fa-search {
+      background-color: #8CC4D0;
+      padding: 6px 25px;
+      color: white;
     }
   }
 
@@ -65,21 +143,23 @@ body {
     background: cover;
     color: white;
 
-    .social-media {
-      display: inline-block;
-      margin: 0;
-    }
+    ul,li {
+        display:inline-block;
+        text-decoration: none;
+        margin: 0 auto;
+        padding: 15px;
+      }
 
-    .social-media img{
-      height: 20px;
-      border-radius: 50%;
-      display: inline-block;
-    }
+    li {
+      border-radius: 60%;
+      background-color: #67C3D0;
+      }
 
-    .social img {
-      display: inline-block;
+      .fa-paper-plane-o {
+        background-color: #35414E;
+        padding: 6px 25px;
+      }
     }
-  }
 
 .stories {
 
@@ -134,13 +214,72 @@ body {
   background-color: #35414E;
   color: white;
 
+  @media screen and (min-width:992px){
+    display: none;
+  }
+
   ul, li {
     text-decoration: none;
     display: inline-block;
     padding: 0px 15px;
   }
 
-  
-
-
+ .footer-img {
+  width: 100px;
+  margin: 0 auto;
+  padding-top: 10px;
 }
+
+.fa {
+  border: 1px solid white;
+  border-radius: 80%;
+}
+
+.social-list {
+  padding: 20px 0px;
+  border-bottom: 1px solid white;
+ }
+}
+
+.big-foot {
+  background-color: #35414E;
+  color: white;
+  // display: inline-block;
+  margin: 0 auto;
+  vertical-align: top;
+  width: 100%;
+  display: none;
+  @media screen and (min-width:992px){
+    display: block;
+  }
+
+
+  .left-side{
+
+    text-align: left;
+    border-right: 1px solid white;
+    margin: 0;
+  }
+
+    img  {
+      height: 45px;
+      }
+
+
+  .middle {
+
+    margin: 0 auto;
+    border-right: 1px solid white;
+    vertical-align: top;
+  }
+
+  .list-1, .list-2 {
+    display: inline-block;
+    vertical-align: top;
+    }
+
+      ul {
+        list-style-type: none;
+      }
+
+    }
