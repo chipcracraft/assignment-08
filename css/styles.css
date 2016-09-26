@@ -485,6 +485,8 @@ body {
   .featured-rooms .rooms {
     position: relative;
     margin: 50px; }
+  .featured-rooms .featured-img {
+    position: relative; }
   .featured-rooms h3 {
     padding: 25px 0px; }
   .featured-rooms .t-nails {
@@ -493,9 +495,16 @@ body {
     border-radius: 50%;
     height: 75px;
     width: 75px;
-    position: relative;
-    border: 1px solid white;
-    transform: translate(140%, -128%); }
+    position: absolute;
+    transform: translate(-4%, 0%);
+    right: 20px;
+    bottom: 67px;
+    border: 1px solid white; }
+  .featured-rooms .fa-heart-o {
+    position: absolute;
+    top: 14px;
+    color: white;
+    right: 29px; }
   .featured-rooms .room-button {
     background-color: #35414E;
     color: white;
@@ -539,7 +548,10 @@ body {
     border-right: 1px solid white;
     margin: 0; }
   .big-foot img {
-    height: 45px; }
+    height: 45px;
+    padding-right: 196px; }
+  .big-foot .left-side p {
+    padding-top: 130px; }
   .big-foot .middle {
     margin: 0 auto;
     border-right: 1px solid white;
@@ -549,5 +561,18 @@ body {
     vertical-align: top; }
   .big-foot ul {
     list-style-type: none; }
+  .big-foot .right-side {
+    text-align: left; }
+  .big-foot .footer-img {
+    width: auto;
+    height: auto; }
+  .big-foot .social-icons li {
+    display: inline-block;
+    padding: 0px 5px;
+    border-radius: 50%;
+    border: 1px solid white; }
+  .big-foot .social-icons ul {
+    text-align: left;
+    padding-left: 0; }
 
 /*# sourceMappingURL=styles.css.map */
