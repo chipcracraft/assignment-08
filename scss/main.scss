@@ -10,9 +10,6 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-#app-container{
-   max-width: 960px;
-}
 
 .real-navbar {
   width: 100%;
@@ -26,17 +23,21 @@ body {
 .navbary,.register {
   display: inline-block;
   vertical-align: top;
+  position: absolute;
+  right: 2%;
 }
 
 .navbary {
   width: 50%;
+  position: absolute;
+  left: 3%;
 
 }
 .img-navy {
   height: 50px;
   position: absolute;
-  top: -43px;
-  left: -350px;
+  top: -42%;
+  left: -42%;
 
 
 }
@@ -67,17 +68,25 @@ body {
     display: inline-block;
   }
 
+   /* __INSTRUCTOR-COMMENT__
+       this is NOT how you want to be doing positioning.
+       any time you see these large numbers, should be a major red-flag
+
+       this sort of fixed positioning with numbers as large as these wreaks havoc
+       on mobile styles
+    */
+
     .img-1 {
       height: 30px;
-      position: relative;
-      right: 293px;
-      top: -25px;
+      position: absolute;
+      right: 40%;
+      top: 3%;
     }
 
     .fa-bars {
-      position: relative;
-      left: 128px;
-      top: -30px;
+      position: absolute;
+      left: 93%;
+      top: 3%;
     }
   }
 
@@ -90,12 +99,15 @@ body {
   padding-bottom: 180px;
   margin-bottom: 0;
 
+  h1 {
+    padding-top: 30px;
+  }
 
-
-
+   /* __INSTRUCTOR-COMMENT__
+       don't fix the width
+    */
   .search-bar {
     color: #C6C6C6;
-    width: 500px;
     margin: 0 auto;
     }
 
@@ -106,11 +118,16 @@ body {
     }
   }
 
+  /* __INSTRUCTOR-COMMENT__
+      at least put a background behind the text to make it readable over the background
+   */
   .second-string {
     color: white;
     padding-bottom: 100px;
-    background: url("../images/images/buildings-yellow-green.svg") center center no-repeat;
-    background-size: cover;
+    background: url("../images/images/buildings-yellow-green.svg") center right no-repeat;
+
+    background-color: #7AC0CE;
+
 
     .btn-1 {
       color: white;
@@ -123,6 +140,7 @@ body {
 
   .first-para {
     padding-bottom: 90px;
+
   }
 
   h1 {

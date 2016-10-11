@@ -374,9 +374,6 @@ img {
 body {
   font-family: 'Source Sans Pro', sans-serif; }
 
-#app-container {
-  max-width: 960px; }
-
 .real-navbar {
   width: 100%;
   position: relative;
@@ -386,14 +383,18 @@ body {
       display: block; } }
   .real-navbar .navbary, .real-navbar .register {
     display: inline-block;
-    vertical-align: top; }
+    vertical-align: top;
+    position: absolute;
+    right: 2%; }
   .real-navbar .navbary {
-    width: 50%; }
+    width: 50%;
+    position: absolute;
+    left: 3%; }
   .real-navbar .img-navy {
     height: 50px;
     position: absolute;
-    top: -43px;
-    left: -350px; }
+    top: -42%;
+    left: -42%; }
   .real-navbar .register {
     width: 50%;
     display: inline-block;
@@ -404,7 +405,14 @@ body {
     padding-left: 10px; }
 
 .nav-bar {
-  width: 100%; }
+  width: 100%;
+   /* __INSTRUCTOR-COMMENT__
+       this is NOT how you want to be doing positioning.
+       any time you see these large numbers, should be a major red-flag
+
+       this sort of fixed positioning with numbers as large as these wreaks havoc
+       on mobile styles
+    */ }
   @media screen and (min-width: 992px) {
     .nav-bar {
       display: none; } }
@@ -412,34 +420,41 @@ body {
     display: inline-block; }
   .nav-bar .img-1 {
     height: 30px;
-    position: relative;
-    right: 293px;
-    top: -25px; }
+    position: absolute;
+    right: 40%;
+    top: 3%; }
   .nav-bar .fa-bars {
-    position: relative;
-    left: 128px;
-    top: -30px; }
+    position: absolute;
+    left: 93%;
+    top: 3%; }
 
 .opener {
   background: url("../images/images/roomies-eating-together-bg.jpg") center center no-repeat;
   background-size: cover;
   color: white;
   padding-bottom: 180px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  /* __INSTRUCTOR-COMMENT__
+      don't fix the width
+   */ }
+  .opener h1 {
+    padding-top: 30px; }
   .opener .search-bar {
     color: #C6C6C6;
-    width: 500px;
     margin: 0 auto; }
   .opener .fa-search {
     background-color: #8CC4D0;
     padding: 6px 25px;
     color: white; }
 
+/* __INSTRUCTOR-COMMENT__
+    at least put a background behind the text to make it readable over the background
+ */
 .second-string {
   color: white;
   padding-bottom: 100px;
-  background: url("../images/images/buildings-yellow-green.svg") center center no-repeat;
-  background-size: cover; }
+  background: url("../images/images/buildings-yellow-green.svg") center right no-repeat;
+  background-color: #7AC0CE; }
   .second-string .btn-1 {
     color: white;
     background-color: #35414E; }
